@@ -1,0 +1,72 @@
+.footer {
+  padding: 40px;
+}
+.texit-white {
+  color: white;
+}
+.footer-content {
+  position: relative;
+}
+.footer-content-start {
+  justify-content: center;
+  margin-top: 20px;
+}
+.col-3 {
+  width: 25%;
+}
+.bg-white {
+  background-color: aliceblue;
+}
+.amount {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 900;
+}
+.currency {
+  font-weight: 500;
+  color: #627183;
+  font-size: 32px;
+}
+.per {
+  font-weight: 400;
+  color: #95a4b4;
+}
+.divider {
+  height: 1px;
+  background: #d9e0e6;
+  margin: 15px 0;
+}
+
+.divider.small {
+  width: 80px;
+}
+
+/* sec-5 */
+.sec-5 {
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(9, 177, 255);
+  padding: 50px;
+}
+.sec-5 input {
+  padding: 10px;
+}
+.section-6-main {
+  justify-content: space-between;
+}
+.section-6 img {
+  height: 50px;
+  width: 50px;
+}
+.social-icon {
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+}
+.social-icon-text {
+  gap: 20px;
+  margin-top: 30px;
+}
+.margin-top{
+  margin-top: 50px;
+}

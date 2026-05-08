@@ -1,0 +1,43 @@
+.section-1 {
+  background-color: #101d2d;
+  clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
+  padding-bottom: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+
+.text-white {
+  color: aliceblue;
+}
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-content a {
+  text-decoration: none;
+}
+.btn {
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgba(118, 118, 251, 0.843);
+}
+.sign-up {
+  margin-left: 60px;
+}
+.col-6 {
+  width: 50%;
+  height: 50%;
+}
+.main {
+  margin-top: 50px;
+}
+.content-main {
+  display: flex;
+  flex-direction: column;
+}
+
+

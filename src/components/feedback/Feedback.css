@@ -1,0 +1,32 @@
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-3 p {
+  width: 30vw;
+}
+.feature-icon img {
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+}
+.feature-tab {
+  gap: 60px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.feature-tab-joinimg img {
+  width: 80vw;
+  height: 100vh;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
