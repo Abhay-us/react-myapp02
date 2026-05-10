@@ -30,3 +30,52 @@
   height: 100vh;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+
+@media (min-width: 200px) and (max-width: 640px) {
+  .section-3 p {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .feature-tab {
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .feature-icon img {
+    display: block;
+    margin: 0 auto 12px;
+  }
+
+  .feature-tab-joinimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 720px) {
+  .section-3 p {
+    width: 80%;
+  }
+
+  .feature-tab {
+    flex-wrap: wrap;
+    gap: 34px;
+  }
+
+  .feature-icon {
+    width: 42%;
+  }
+
+  .feature-icon img {
+    display: block;
+    margin: 0 auto 12px;
+  }
+
+  .feature-tab-joinimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}

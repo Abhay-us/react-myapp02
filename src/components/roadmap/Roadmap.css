@@ -69,3 +69,79 @@
 .timeline-right h3{
     text-align:center;
 }
+
+@media (min-width: 200px) and (max-width: 640px) {
+  .content-right,
+  .content-left {
+    padding-left: 24px;
+    margin-top: 28px;
+  }
+
+  .content-right::before,
+  .content-left::after {
+    left: 0;
+    top: 6px;
+  }
+
+  .timeline-right,
+  .timeline-left {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .timeline-right::before,
+  .timeline-left::after {
+    left: -20px;
+    top: 20px;
+    height: calc(100% + 28px);
+  }
+
+  .timeline-right h4,
+  .timeline-left h4,
+  .timeline-right h3,
+  .timeline-left h3 {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 720px) {
+  .content-right,
+  .content-left {
+    padding-left: 30px;
+    margin-top: 32px;
+  }
+
+  .content-right::before,
+  .content-left::after {
+    left: 0;
+    top: 7px;
+  }
+
+  .timeline-right,
+  .timeline-left {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .timeline-right::before,
+  .timeline-left::after {
+    left: -24px;
+    top: 22px;
+    height: calc(100% + 32px);
+  }
+
+  .timeline-right h4,
+  .timeline-left h4,
+  .timeline-right h3,
+  .timeline-left h3 {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}
