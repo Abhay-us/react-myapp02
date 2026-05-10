@@ -111,6 +111,27 @@
 }
 
 @media (min-width: 200px) and (max-width: 640px) {
+  .section-2 {
+    width: 100%;
+  }
+
+  .section-2 .col-6 {
+    width: 100%;
+  }
+
+  .content-main {
+    width: 100%;
+  }
+
+  .image-sec-2 {
+    width: 100%;
+  }
+
+  .image-sec-2 img {
+    width: 100%;
+    height: auto !important;
+  }
+
   .card {
     width: 100%;
     text-align: center;
@@ -130,6 +151,27 @@
 }
 
 @media (min-width: 641px) and (max-width: 720px) {
+  .section-2 {
+    width: 100%;
+  }
+
+  .section-2 .col-6 {
+    width: 100%;
+  }
+
+  .content-main {
+    width: 100%;
+  }
+
+  .image-sec-2 {
+    width: 100%;
+  }
+
+  .image-sec-2 img {
+    width: 100%;
+    height: auto !important;
+  }
+
   .card {
     width: 48%;
     text-align: center;

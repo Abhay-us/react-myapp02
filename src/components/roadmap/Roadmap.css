@@ -21,7 +21,7 @@
   content: "";
   position: absolute;
   top: 0px;
-  left: -20px;
+  left: -19px;
   height: 100px;
   width: 2px;
   background: #677687;
@@ -47,7 +47,7 @@
   content: "";
   position: absolute;
   top: 0px;
-  left: 548px;
+  left: 529px;
   height: 100px;
   width: 2px;
   background: #677687;
@@ -79,8 +79,8 @@
 
   .content-right::before,
   .content-left::after {
-    left: 0;
-    top: 6px;
+    left: 1px;
+    top: 11px;
   }
 
   .timeline-right,
@@ -94,7 +94,7 @@
   .timeline-left::after {
     left: -20px;
     top: 20px;
-    height: calc(100% + 28px);
+    height: 140px;
   }
 
   .timeline-right h4,
@@ -117,8 +117,8 @@
 
   .content-right::before,
   .content-left::after {
-    left: 0;
-    top: 7px;
+    left: 2px;
+    top: 14px;
   }
 
   .timeline-right,
@@ -132,7 +132,7 @@
   .timeline-left::after {
     left: -24px;
     top: 22px;
-    height: calc(100% + 32px);
+    height: 100px;
   }
 
   .timeline-right h4,
